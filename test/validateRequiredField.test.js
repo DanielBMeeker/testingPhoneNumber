@@ -3,6 +3,9 @@
 let assert = require('chai').assert;	//Chai assertion library
 let validInput = require('../app/validateRequiredField');
 let validPhoneInput = require('../app/validatePhoneNumber');
+let validEmail = require('../app/validateEmail')
+let validZipCode = require('../app/validateZipCode')
+let replaceCharacter = require('../app/replaceCharacters')
 
 describe("Testing Input Required", function(){
 	
@@ -59,3 +62,35 @@ describe("Testing Valid Phone Number", function(){
 	});
 	
 });
+
+describe("Testing Valid Email", function(){
+	it("Input is Required", function(){
+		assert.isFalse(validEmail())
+	})
+	it("Standard Email accepted", function(){
+		assert.isTrue(validEmail('daniel.b.meeker@gmail.com'))
+	})
+})
+
+describe("Testing Valid Zip Code", function (){
+	it("Input is Required", function(){
+		assert.isFalse(validZipCode())
+	});
+	it("Can be either 5 digits or '5'-'4' digits", function(){
+		assert.isTrue(validZipCode(12345))
+		assert.isTrue(validZipCode("12345-6789"))
+		assert.isFalse(validZipCode(1234))
+		assert.isFalse(validZipCode(123456))
+	})
+	it("Must be numerals", function(){
+		assert.isFalse(validZipCode("abcde"))
+	})
+})
+
+describe("Testing Replaced Character", function (){
+	it("Special Characters ' < > Replaced with -", function(){
+		let actual = "I'm s/o >>excited<<!"
+		let expected = "I-m s-o --excited--!"
+		assert.equal(expected, replaceCharacter(actual))
+	})
+})

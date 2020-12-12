@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae69f1a0-3a79-451e-b0f8-0f45d9fc3456" name="Default Changelist" comment="" />
+    <list default="true" id="ae69f1a0-3a79-451e-b0f8-0f45d9fc3456" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/replaceCharacters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/validateEmail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/validateZipCode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/validateRequiredField.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/validateRequiredField.test.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lZN4w8yS5LiDtTBLtGmqRErQlW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,11 +55,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607800465949</updated>
-      <workItem from="1607800466965" duration="4681000" />
+      <workItem from="1607800466965" duration="10534000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="895" y="554" key="Github.ShareDialog" timestamp="1607805268011">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="895" y="554" key="Github.ShareDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1607805268011" />
+    <state x="816" y="354" key="Github.UntrackedFilesDialog" timestamp="1607805274052">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="816" y="354" key="Github.UntrackedFilesDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1607805274052" />
+    <state x="758" y="312" width="1076" height="762" key="dock-window-1" timestamp="1607812159509">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="758" y="312" width="1076" height="762" key="dock-window-1/0.0.3440.1400@0.0.3440.1400" timestamp="1607812159509" />
   </component>
 </project>
